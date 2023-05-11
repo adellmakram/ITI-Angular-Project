@@ -1,0 +1,29 @@
+<h3 class="alert alert-primary my-4">Update User #{{student.id}}</h3>
+<form *ngIf="student" (ngSubmit)="update(name.value, username.value, age.value, email.value, phone.value)"
+    class="d-flex flex-column gap-3">
+    <div class="row">
+        <label for="name">Name</label>
+        <input type="text" #name placeholder="Name" value="{{student.name}}" />
+    </div>
+    <div class="row">
+        <label for="username">User Name</label>
+        <input type="text" #username placeholder="User Name" value="{{student.username}}" />
+    </div>
+    <div class="row">
+        <label for="age">Age</label>
+        <input type="text" #age placeholder="Age" value="{{student.age}}" />
+    </div>
+    <div class="row">
+        <label for="email">Email</label>
+        <input type="text" #email placeholder="Email" value="{{student.email}}" />
+    </div>
+    <div class="row">
+        <label for="phone">Phone</label>
+        <input type="text" #phone placeholder="Phone" value="{{student.phone}}" />
+    </div>
+    <input type="submit" value="Update" class="m-auto btn btn-success" />
+</form>
+
+<div *ngIf="formSubmitted" class="alert alert-success mt-2">
+    <p>Data Updated Successfully</p>
+</div>

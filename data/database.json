@@ -1,0 +1,44 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "adel",
+      "username": "adelmakram",
+      "age": "24",
+      "email": "adel@gmail.com",
+      "phone": "011111111111"
+    },
+    {
+      "id": 2,
+      "name": "ahmed",
+      "username": "ahmed33",
+      "email": "ahmed@gmail.com",
+      "age": 32,
+      "phone": "022222222222"
+    },
+    {
+      "id": 3,
+      "name": "sara",
+      "username": "saraahmed",
+      "email": "sara@gmail.com",
+      "age": 18,
+      "phone": "0333333333333"
+    },
+    {
+      "id": 4,
+      "name": "Osama",
+      "username": "osama22",
+      "email": "osama@gmail.com",
+      "age": 22,
+      "phone": "044444444444"
+    },
+    {
+      "name": "mona",
+      "username": "monaahmed",
+      "age": "29",
+      "email": "mona@gmail.com",
+      "phone": "0555555555555",
+      "id": 5
+    }
+  ]
+}

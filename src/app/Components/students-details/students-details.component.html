@@ -1,0 +1,13 @@
+<h3 class="alert alert-primary my-4">Details of User #{{student.id}}</h3>
+<div *ngIf="student ; else falseBlock" class="border p-3">
+    <p>ID: {{student.id}}</p>
+    <p>Name: {{student.name}}</p>
+    <p>User Name: {{student.username}}</p>
+    <p>Age: {{student.age}}</p>
+    <p>Email: {{student.email}}</p>
+    <p>Phone: {{student.phone}}</p>
+</div>
+
+<ng-template #falseBlock>
+    <h1>Loading...</h1>
+</ng-template>
